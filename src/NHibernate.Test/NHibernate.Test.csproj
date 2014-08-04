@@ -3047,6 +3047,7 @@
     <EmbeddedResource Include="NHSpecificTest\NH1291AnonExample\Mappings.hbm.xml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="hibernate.cfg.xml" />
     <EmbeddedResource Include="NHSpecificTest\NH3455\Mappings.hbm.xml" />
     <EmbeddedResource Include="NHSpecificTest\NH3590\Mappings.hbm.xml" />
     <EmbeddedResource Include="NHSpecificTest\NH3377\Mappings.hbm.xml" />
