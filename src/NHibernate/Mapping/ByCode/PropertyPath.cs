@@ -63,7 +63,7 @@ namespace NHibernate.Mapping.ByCode
 			{
 				return true;
 			}
-			return hashCode == other.GetHashCode();
+            return hashCode == other.GetHashCode() && ToString() == other.ToString();
 		}
 
 		public override int GetHashCode()
