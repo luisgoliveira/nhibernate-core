@@ -66,9 +66,11 @@ namespace NHibernate.Mapping.ByCode
 			{
 				return true;
 			}
+
 			return (ReferenceEquals(previousPath, null) && ReferenceEquals(other.previousPath, null) ||
 			        !ReferenceEquals(previousPath, null) && previousPath.Equals(other.previousPath)) &&
 			       localMember.Equals(other.localMember);
+
 		}
 
 		public override int GetHashCode()
