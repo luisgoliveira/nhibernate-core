@@ -66,7 +66,6 @@ namespace NHibernate.Mapping.ByCode
 			{
 				return true;
 			}
-
 			return Equals(previousPath, other.previousPath) && localMember.Equals(other.localMember);
 		}
 
